@@ -6,6 +6,6 @@ This project was created using PHP and was designed to show a simple survey form
 
 This application was designed to showcase my PHP coding abilities. 
 
-##Technologies Used
+## Technologies Used
 
 Technologies used to create this application were PHP and MySQL.
