@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Customer Survey</title>
+</head>
+<body>
+	
+	<h1>Customer Survey</h1>
+
+	<form action="insert.php" method="POST">
+		<table>
+			<tr>
+			 <td>First Name:</td>
+			  <td><input type="text" name="first" required></td>
+			</tr>
+			<tr>
+			 <td>Last Name:</td>
+			   <td><input type="text" name="last" required></td>
+			</tr>
+			<tr>
+			 <td>Email Address:</td>
+			   <td><input type="email" name="email" required></td>
+			</tr>
+			<tr>
+			 <td>date:</td>
+			   <td><input type="date" name="date" required></td>
+			</tr>
+			<tr>
+			 <td>How satisfied are you with this product?</td>
+			   <td>
+			   	Extremely Satisfied<input type="radio" name="sat" value="1" required>1
+			   	<input type="radio" name="sat" value="2" required>2
+			   	<input type="radio" name="sat" value="3" required>3
+			   	<input type="radio" name="sat" value="4" required>4
+			   	<input type="radio" name="sat" value="5" required>5
+			   	<input type="radio" name="sat" value="6" required>6
+			   	<input type="radio" name="sat" value="7" required>7 Extremely Unsatisfied
+			   </td>
+			</tr>
+			<tr>
+			 <td>Would you recommend the product to others?</td>
+			   <td>
+			   	<input type="radio" name="rec" value="y" required>Yes
+			   	<input type="radio" name="rec" value="n" required>No
+			   </td>
+			</tr>
+			<tr>
+			 <td>How can we serve you better?</td>
+			  <td><input type="text" name="service" required></td>
+			</tr>
+			<tr>
+			  <td><input type="submit" value="submit"></td>
+			</tr>
+		</table>
+	</form>
+
+
+</body>
+</html>
